@@ -2,7 +2,8 @@
 
 My config for XFCE
 
-![XFCE with GruvBox-Dark icon and Adwaita-Dark theme](./screenshot.png)
+
+![XFCE Screenshot](https://github.com/user-attachments/assets/4bb4d036-fc6a-4fa8-b7c7-ac523aa1d480)
 
 ## Tech
 - Icon : Gruvbox-Dark
