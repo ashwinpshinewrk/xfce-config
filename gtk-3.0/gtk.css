@@ -1,0 +1,108 @@
+
+// Panel BG
+
+.xfce4-panel .background {
+    background-color: #010101;
+   backdrop-filter : blur(4px);
+    border :0;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#XfcePanelWindow {
+    margin-top: 0px;
+}
+
+
+#whiskermenu-button {
+    background-color : #111E21;
+    color : white;
+    border-radius : 4px;
+    padding : 3px;
+    margin : 2px;
+}
+
+#xfce-panel-button,
+#xfce-panel-toggle-button,
+#launcher-button,
+#launcher-arrow,
+#actions-button,
+#clock-button,
+#xfce4-notification-plugin,
+#pulseaudio-button,
+#xfce4-power-manager-plugin,
+#sn-button,
+#sn-button-box,
+#statusnotifier-button,
+
+.xfce4-panel .tasklist .toggle {
+    background-color: #3b4252;
+    color: #f9f9f9;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 3px;
+    transition  : background-color 0.2s ease, color 0.2s ease, -gtk-icon-transform 0.2s ease;
+}
+
+#xfce-panel-button:hover,
+#xfce-panel-toggle-button:hover,
+#whiskermenu-button:hover,
+#launcher-button:hover,
+#launcher-arrow:hover,
+#actions-button:hover,
+#clock-button:hover,
+#xfce4-notification-plugin:hover,
+#pulseaudio-button:hover,
+#xfce4-power-manager-plugin:hover,
+#sn-button:hover,
+#sn-button-box:hover,
+#statusnotifier-button:hover,
+.systray:hover,
+.xfce4-panel .tasklist .toggle:hover {
+    background-color: #4c566a;
+    color: #282828;
+}
+
+#xfce-panel-toggle-button:checked,
+.xfce4-panel .tasklist .toggle:checked {
+    background-color: #676767;
+    color: #fafafa;
+}
+
+//Icon rendering 
+#xfce-panel-button image,
+#xfce-panel-toggle-button image,
+#whiskermenu-button image,
+#launcher-button image,
+#launcher-arrow image,
+#actions-button image,
+#clock-button image,
+#xfce4-notification-plugin image,
+#pulseaudio-button image,
+#xfce4-power-manager-plugin image,
+#sn-button image,
+#sn-button-box image,
+#statusnotifier-button image,
+.systray image,
+.xfce4-panel .tasklist .toggle image {
+    -gtk-icon-transform: scale(1.0);
+}
+.xfce4-panel .tasklist .toggle:checked image {
+    -gtk-icon-transform: scale(1.1);
+}
+.xfce4-panel .tasklist .toggle:hover image,
+#launcher-button:hover image {
+    -gtk-icon-transform: scale(0.9);
+}
+
+#clock-button:hover {
+    font-weight: 500;
+}
+
+#clock-button {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 9px;
+}
+
